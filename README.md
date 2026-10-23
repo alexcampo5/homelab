@@ -1,2 +1,3 @@
-# homelab
-acampo.homelab ansible collection for homelab automation
+# Ansible Collection - acampo.homelab
+
+Documentation for the collection.
