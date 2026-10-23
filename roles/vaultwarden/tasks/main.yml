@@ -1,3 +1,6 @@
 #SPDX-License-Identifier: MIT-0
 ---
 # tasks file for vaultwarden
+
+- name: Install and Set Up Dependencies
+  ansible.builtin.include_tasks: subtasks/prerequisites.yml

@@ -1,0 +1,15 @@
+---
+
+- name: Install Relevant Packages
+  ansible.butilin.package:
+    name:
+      - docker
+      - sqlite
+    state: present
+
+- name: Enable Docker Service
+  ansible.builtin.service:
+    name: docker
+    state: started
+    enabled: true
+
